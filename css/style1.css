@@ -420,11 +420,11 @@ body {
 .ladi-section .ladi-section-background {
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
+    height: 90%;
+    top: 51px;
     left: 0;
     pointer-events: none;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .ladi-container {

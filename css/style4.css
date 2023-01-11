@@ -2617,7 +2617,7 @@
             background-size: cover;
             background-attachment: scroll;
             background-origin: content-box;
-            background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672669284/New%20Image/z3980885763349_7386206ed87aea82d7c0617cc15fe91b_cgcphz.jpg");
+            background-image: url("/image/headerImage.jpg");
             background-position: center top;
             background-repeat: no-repeat;
         }
@@ -4010,8 +4010,8 @@
 
         #HEADLINE2440 {
             width: 958px;
-            top: 127.5px;
-            left: 242px;
+            top: 128px;
+            left: 180px;
         }
 
         #HEADLINE2440>.ladi-headline {
@@ -4047,10 +4047,12 @@
         #BOX2442>.ladi-box {
             box-shadow: 0px 15px 20px -15px rgba(0, 0, 0, 0.5);
             -webkit-box-shadow: 0px 15px 20px -15px rgba(0, 0, 0, 0.5);
-            background-color: rgba(11, 103, 230, 0.3);
+            background-color: rgb(207 217 231 / 30%);
             border-color: rgb(241, 243, 244);
             border-width: 1px;
             border-radius: 1px;
+            top: -9px;
+            height: 120%;
         }
 
         #BOX2429 {
@@ -7895,9 +7897,12 @@
             background-size: cover;
             background-attachment: scroll;
             background-origin: content-box;
-            background-image: url("https://res.cloudinary.com/dlg9e7xqu/image/upload/v1672669284/New%20Image/z3980885763349_7386206ed87aea82d7c0617cc15fe91b_cgcphz.jpg");
+            background-image: url("/image/headerImage.jpg");
             background-position: left center;
             background-repeat: no-repeat;
+            width: 205%;
+            top: 55px;
+            left: -415px;
         }
 
         #SECTION1 .ladi-section-arrow-down {
@@ -9297,7 +9302,7 @@
 
         #HEADLINE2440 {
             width: 318px;
-            top: 147px;
+            top: 158px;
             left: 47.0475px;
         }
 
@@ -9313,7 +9318,7 @@
             width: 72px;
             height: 72px;
             top: 75px;
-            left: 304.5px;
+            left: 22.5px;
         }
 
         #IMAGE2441>.ladi-image>.ladi-image-background {
