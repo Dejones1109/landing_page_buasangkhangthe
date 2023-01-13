@@ -10,17 +10,18 @@
     <script type="text/javascript" src="js/index.js"></script>
     <link rel="canonical" href="https://lenhut.i-healthy.asia" />
     <meta property="og:url" content="https://lenhut.i-healthy.asia" />
-    <meta property="og:image" content="./image/headerImage.jpg" />
-    <meta property="og:image:alt" content="Bữa sáng kháng thể" />
-    <meta property="og:description" content="Khám phá một bữa sáng tràn đầy năng lượng [&hellip;]" />    
-    <meta property="og:type" content="article" />    
-    <meta property="og:title" content="DINH DƯỠNG MIỄN DỊCH" />
-    <meta property="og:type" content="website" />
     <meta
-      property="og:image"
-      content="https://static.ladipage.net/5ca34d96d64a251500bcf254/logo-20211124113508.jpg"
+    property="og:image"
+    content="http://photo-link-talk.zadn.vn/photolinkv2/720/aHR0cHM6Ly9zdGF0aWMubGFkaXBhZ2UubmV0LzVjYTM0ZDk2ZDY0YTI1MTUwMGJjZjI1NC9sb2dvLTIwMjExMTI0MTEzNTA4LmpwZw=="
     />
+    <meta property="og:type" content="article" />    
+    <meta property="og:image:alt" content="" />
+    <meta property="og:title" content="DINH DƯỠNG MIỄN DỊCH" />
     <meta property="og:description" content="CHĂM SÓC SỨC KHOẺ CHỦ ĐỘNG" />
+
+    <!-- <meta property="og:image:alt" content="Bữa sáng kháng thể" /> -->
+    <!-- <meta property="og:description" content="Khám phá một bữa sáng tràn đầy năng lượng [&hellip;]" />     -->
+    <!-- <meta property="og:type" content="website" /> -->
     <meta name="format-detection" content="telephone=no" />
     <link
       rel="shortcut icon"
@@ -2569,6 +2570,14 @@
         }, 2600);
       }
     </script>
+    <script>
+      [].forEach.call(document.querySelectorAll('div'), function(el) {
+    if (window.getComputedStyle(el).bottom === '-40px') {
+      console.log(el)
+      //  el.style.position = 'none';
+    }
+});
+  </script>
     <!--[if lt IE 9
       ]><script src="https://w.ladicdn.com/v2/source/html5shiv.min.js?v=1668572877531"></script>
       <script src="https://w.ladicdn.com/v2/source/respond.min.js?v=1668572877531"></script
